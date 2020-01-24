@@ -15,6 +15,9 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  router: {
+    middleware: 'check-auth'
+  },
   /*
   ** Customize the progress-bar color
   */

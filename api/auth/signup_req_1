@@ -1,0 +1,10 @@
+{
+  "type": "non-student",
+  "studentId": null,
+  "mail": "abc@de.gf",
+  "fName": "ali",
+  "lName": "mohammadi",
+  "bio": "man gorg tanhaye shabam.",
+  "username": "ali_m",
+  "pass": "123123123"
+}

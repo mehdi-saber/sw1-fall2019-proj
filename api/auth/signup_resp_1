@@ -1,0 +1,7 @@
+{
+  "error": {
+    "type": "username-exists",
+    "message": "This Username already registered!"
+  },
+  "jwtToken": null
+}

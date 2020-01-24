@@ -1,0 +1,7 @@
+{
+  "error": {
+    "type": "invalid-user-pass",
+    "message": "Invalid username/password combination!"
+  },
+  "jwtToken": null
+}
