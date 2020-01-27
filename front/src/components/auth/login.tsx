@@ -1,4 +1,6 @@
 import React, {Fragment} from 'react';
+import {FaChevronRight} from 'react-icons/all';
+import {Link} from "react-router-dom";
 
 const Login: React.FunctionComponent<any> = () => {
     return (
@@ -18,6 +20,12 @@ const Login: React.FunctionComponent<any> = () => {
                             <input type="password" className="form-control" placeholder="password..."/>
                         </div>
                     </div>
+                </div>
+                <div className="text-right">
+                    <button className="btn btn-outline-primary">Login <FaChevronRight/></button>
+                </div>
+                <div className="text-right">
+                    <Link to="/auth/register" className="btn btn-link">Don`t have account? Sign up</Link>
                 </div>
             </div>
         </Fragment>
