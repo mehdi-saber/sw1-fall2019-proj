@@ -7,7 +7,7 @@ app_name = 'account'
 
 urlpatterns = [
     # Sign up
-    path('register/', api_register_user, name="user_register"),
+    path('register', api_register_user, name="user_register"),
     path('register/verify/', api_register_student_verification, name="student_verification"),
     path('register/verification/refresh_code/', api_refresh_student_verification_code, name="verification_refresh"),
 
