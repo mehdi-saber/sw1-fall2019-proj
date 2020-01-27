@@ -1,0 +1,63 @@
+API :
+{
+    "detail": "get a tweet info",
+    "path": "api/tweet/get_tweet/",
+    "jwt": false
+
+}
+
+Request: 
+{
+    "content":     "lorem ipsum...",
+}
+
+
+
+
+Response:
+{
+    "tweetId": 1,
+    "user": {
+        "username": "sinaf97",
+        "name": " "
+    },
+    "timeToNow": "10m",
+    "content": "sdfghnjm",
+    "likes": 0,
+    "retweeters": [
+        "sina"
+    ],
+    "retweets": 1,
+    "comments": 2,
+    "commentList": [
+        {
+            "id": 1,
+            "author": {
+                "username": "sinaf97",
+                "name": " "
+            },
+            "content": "salam azizam",
+            "timeToNow": "9m",
+            "likes": 0
+        },
+        {
+            "id": 2,
+            "author": {
+                "username": "sinaf97",
+                "name": " "
+            },
+            "content": "salam azizamsdfghjkl",
+            "timeToNow": "3m",
+            "likes": 0
+        }
+    ]
+}
+
+
+Respone ERROR:
+    {
+        "error": "Tweet does not exist"
+    }
+
+
+

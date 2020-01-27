@@ -1,0 +1,27 @@
+API :
+{
+    "detail": "retweet or disable retweet a tweet",
+    "path": "api/tweet/retweet/",
+    "jwt": true
+
+}
+
+Request: 
+{
+    "tweetId":     4,
+    "rewteet": true or false,
+}
+
+
+
+
+Response:
+{
+    "error": null
+}
+
+
+Respone ERROR:
+
+
+

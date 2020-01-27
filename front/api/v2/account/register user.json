@@ -1,0 +1,53 @@
+
+API :
+{
+    "detail": "request for registering users",
+    "path": "api/account/register",
+    "jwt": false
+}
+
+Request: 
+{
+    "type":         "student" / "non-student" ,
+    "email":        "example@company.com" ,
+    "first_name":   "Sina" ,
+    "last_name":    "Farahani" ,
+    "bio":          "fuck you all" ,
+    "username":     "sinaf97" ,
+    "password":     "123456"
+}
+
+
+
+
+Response for student:
+{
+    "error": null,
+    "jwtToken": {
+        "access": "eyJ0e...",
+        "refresh": "eyJ0e..."
+    },
+    "message": "Please check your email for validation"
+}
+
+Response for non-student:
+{
+    "error": null,
+    "jwtToken": {
+        "access": "eyJ0eX...",
+        "refresh": "eyJ0eXAi..."
+    },
+    "message": null
+}
+
+
+Respone ERROR:
+    {
+        "email": [
+            "user with this email already exists."
+            ],
+        "username": [
+            "A user with that username already exists."
+            ],
+        "jwtToken": null
+}

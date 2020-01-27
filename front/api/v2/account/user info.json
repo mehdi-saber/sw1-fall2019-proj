@@ -1,0 +1,70 @@
+API :
+{
+    "detail": "get a user info",
+    "path": "api/account/info/",
+    "jwt": false
+
+}
+
+Request: 
+{
+    "content":     "lorem ipsum...",
+}
+
+
+
+
+Response:
+{
+    "user": {
+        "username": "sinaf97",
+        "name": " ",
+        "registerDate": "2020-1-25",
+        "bio": "hi"
+    },
+    "feeds": [
+        {
+            "tweetId": 1,
+            "user": {
+                "username": "sinaf97",
+                "name": " "
+            },
+            "timeToNow": "13m",
+            "content": "sdfghnjm",
+            "likes": 0,
+            "retweeters": [
+                "sina"
+            ],
+            "retweets": 1,
+            "comments": 2,
+            "commentList": [
+                {
+                    "id": 1,
+                    "author": {
+                        "username": "sinaf97",
+                        "name": " "
+                    },
+                    "content": "salam azizam",
+                    "timeToNow": "13m",
+                    "likes": 0
+                },
+                {
+                    "id": 2,
+                    "author": {
+                        "username": "sinaf97",
+                        "name": " "
+                    },
+                    "content": "salam azizamsdfghjkl",
+                    "timeToNow": "7m",
+                    "likes": 0
+                }
+            ]
+        }
+    ]
+}
+
+
+Respone ERROR:
+
+
+

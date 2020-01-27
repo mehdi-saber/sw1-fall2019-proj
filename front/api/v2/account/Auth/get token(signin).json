@@ -1,0 +1,30 @@
+API :
+{
+    "detail": "get jwt token",
+    "path": "api/account/token",
+    "jwt": false
+
+}
+
+Request:
+    {
+        "username":     "sinaf97" ,
+        "password":     "1234",
+    }
+
+
+
+
+Response:
+    {
+        "refresh": "eyJ0e...",
+        "access": "eyJ0eX..."
+    }
+
+Response ERROR:
+    {
+        "detail": "No active account found with the given credentials"
+    }
+
+
+

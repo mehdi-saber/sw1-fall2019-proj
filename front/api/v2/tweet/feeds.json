@@ -1,0 +1,53 @@
+API :
+{
+    "detail": "Fetch random tweets",
+    "path": "api/tweet/feeds",
+    "jwt": false
+}
+
+Request: 
+{
+    "startIndex":     0,
+    "endIndex":       50
+}
+
+
+
+
+Response:
+{
+    "feeds": [
+        {
+            "tweetId": 1,
+            "retweeted_by": null,
+            "user": {
+                "username": "ali68",
+                "name": "Ali Zia"
+            },
+            "timeToNow": "2m",
+            "content": "Hello. world!",
+            "likes": 50,
+            "retweets": 10,
+            "comments": 6
+        },
+        {
+            "tweetId": 2,
+            "retweeted_by": null,
+            "user": {
+                "username": "sinaf97",
+                "name": "Sina Farahani"
+            },
+            "timeToNow": "1h",
+            "content": "sdfghnjm",
+            "likes": 0,
+            "retweets": 0,
+            "comments": 1
+        }
+    ]
+}
+
+
+Respone ERROR:
+
+
+

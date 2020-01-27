@@ -13,9 +13,9 @@ export const extractInfoFromHash = () => {
   if (process.SERVER_BUILD) {
     return undefined
   }
-  const { id_token, state } = getQueryParams()
+  const { id_token: idToken, state } = getQueryParams()
   return {
-    token: id_token,
+    token: idToken,
     secret: state
   }
 }
@@ -57,6 +57,10 @@ export const getUserFromLocalStorage = () => {
   return json ? JSON.parse(json) : undefined
 }
 
-export const setSecret = (secret) => window.localStorage.setItem('secret', secret)
+export const setSecret = (secret) => {
+  return window.localStorage.setItem('secret', secret)
+}
 
-export const checkSecret = (secret) => window.localStorage.secret === secret
+export const checkSecret = (secret) => {
+  return window.localStorage.secret === secret
+}

@@ -1,0 +1,31 @@
+API :
+{
+    "detail": "add a tweet",
+    "path": "api/tweet/add_tweet/",
+    "jwt": true
+
+}
+
+Request: 
+{
+    "content":     "lorem ipsum...",
+}
+
+
+
+
+Response:
+{
+    "tweetId": "12",
+    "error": null
+}
+
+
+Respone ERROR:
+    {
+        "error":   "You are not verified"
+                or "Permission Denied"
+    }
+
+
+

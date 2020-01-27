@@ -1,0 +1,29 @@
+API :
+{
+    "detail": "refresh jwt token",
+    "path": "api/account/token/refresh",
+    "jwt": true
+
+}
+
+Request:
+    {
+        "refresh":     "easdXr..." ,
+    }
+
+
+
+
+Response:
+    {
+        "access": "eyJ0eX..."
+    }
+
+Response ERROR:
+    {
+        "detail": "Token is invalid or expired",
+        "code": "token_not_valid"
+    }
+
+
+

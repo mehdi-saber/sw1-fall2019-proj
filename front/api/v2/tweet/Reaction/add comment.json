@@ -1,0 +1,33 @@
+API :
+{
+    "detail": "add a comment to a tweet",
+    "path": "api/tweet/add_comment/",
+    "jwt": true
+
+}
+
+Request: 
+{
+    "tweetId":     "24",
+    "content":     "lorem ipsum...",
+}
+
+
+
+
+Response:
+{
+    "tweetId": "24",
+    "error": null
+}
+
+
+Respone ERROR:
+    {
+        "tweet": [
+            "Invalid pk \"2\" - object does not exist."
+        ]
+    }
+
+
+

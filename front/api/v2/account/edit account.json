@@ -1,0 +1,35 @@
+API :
+{
+    "detail": "edit password or bio of account",
+    "path": "api/account/edit/",
+    "jwt": true
+
+}
+
+Request: 
+{
+    "username": "sinaf97",
+    "bio": "lorem ipsum...", optional
+    "password": "12345",     optional
+
+}
+
+
+
+
+Response:
+    {
+        "error": null,
+        "jwt": {
+            "access_token": "skcaH3...",
+            "refresh": "syUb6..."
+        }
+    }
+
+Response ERROR:
+    {
+        "error": "User does not exist"
+    }
+
+
+

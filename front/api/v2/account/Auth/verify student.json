@@ -1,0 +1,41 @@
+API :
+{
+    "detail": "verify student with code",
+    "path": "api/account/register/verify/",
+    "jwt": true
+
+}
+
+Request: 
+{
+    "username":     "sinaf97" ,
+    "verificationCode":     "Xh6dTv",
+}
+
+
+
+
+Response:
+{
+    "error": null,
+    "jwtToken": {
+        "access": "asdsa...",
+        "refresh": "yjklmads...",
+    },
+    "message": null
+}
+
+Response for verified students:
+{
+    "message": "You are already verified"
+}
+
+
+Respone ERROR:
+    {
+        "error":   "Code has expired"
+                or "Wrong code"
+    }
+
+
+

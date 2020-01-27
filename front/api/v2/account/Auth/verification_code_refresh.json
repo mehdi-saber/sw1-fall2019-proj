@@ -1,0 +1,28 @@
+API :
+{
+    "detail": "refresh verification code",
+    "path": "api/register/verification/refresh_code/",
+    "jwt": true
+
+}
+
+Request: 
+{
+    "username":     "sinaf97" ,
+}
+
+
+
+
+Response:
+{
+    "error": null,
+}
+
+Response for verified students:
+{
+    "message": "You are already verified"
+}
+
+
+

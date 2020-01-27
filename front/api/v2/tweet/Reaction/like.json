@@ -1,0 +1,28 @@
+API :
+{
+    "detail": "like or dislike a tweet",
+    "path": "api/tweet/like/",
+    "jwt": true
+
+}
+
+Request: 
+{
+    "id":     4,
+    "like": true or false,
+    "type": "tweet" or "comment"
+}
+
+
+
+
+Response:
+{
+    "error": null
+}
+
+
+Respone ERROR:
+
+
+
